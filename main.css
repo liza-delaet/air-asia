@@ -39,8 +39,8 @@ p {
 }
 
 .wrapper {
-  background: url(/pictures/background/1.png) no-repeat,
-  url(/pictures/background/2.png) bottom 230px left 0px no-repeat; 
+  background: url(./pictures/background/1.png) no-repeat,
+  url(./pictures/background/2.png) bottom 230px left 0px no-repeat; 
   display: inline-block;
   vertical-align: top;
   min-width: 100%;
@@ -340,11 +340,11 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(/pictures/content/gates.png) center center / cover no-repeat;
+  background: url(./pictures/content/gates.png) center center / cover no-repeat;
 }
 
 .about__container {
-  background: url(/pictures/content/mountains.png) no-repeat;
+  background: url(./pictures/content/mountains.png) no-repeat;
   padding: 43px 81px 65px;
   display: inline-block;
   vertical-align: top;
@@ -405,33 +405,33 @@ footer {
 }
 
 .social__item--icon--telegram .social__link {
-  background-image: url(/pictures/social/telegram.png);
+  background-image: url(./pictures/social/telegram.png);
 }
 
 .social__item--icon--telegram .social__link:hover {
-  background-image: url(/pictures/social/telegramhover.png);
+  background-image: url(./pictures/social/telegramhover.png);
 }
 
 .social__item--icon--vk .social__link {
-  background-image: url(/pictures/social/vk.png);
+  background-image: url(./pictures/social/vk.png);
 }
 
 .social__item--icon--vk .social__link:hover {
-  background-image: url(/pictures/social/vkhover.png);
+  background-image: url(./pictures/social/vkhover.png);
 }
 
 .social__item--icon--fb .social__link {
-  background-image: url(/pictures/social/fb.png);
+  background-image: url(./pictures/social/fb.png);
 }
 
 .social__item--icon--fb .social__link:hover {
-  background-image: url(/pictures/social/fbhover.png);
+  background-image: url(./pictures/social/fbhover.png);
 }
 
 .social__item--icon--inst .social__link {
-  background-image: url(/pictures/social/inst.png);
+  background-image: url(./pictures/social/inst.png);
 }
 
 .social__item--icon--inst .social__link:hover {
-  background-image: url(/pictures/social/insthover.png);
+  background-image: url(./pictures/social/insthover.png);
 }
