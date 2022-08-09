@@ -1,0 +1,15 @@
+.hello__container {
+  width: 520px;
+  position: relative;
+}
+
+.hello__title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hello__subtitle {
+  font-size: 18px;
+  margin-bottom: 32px;
+}

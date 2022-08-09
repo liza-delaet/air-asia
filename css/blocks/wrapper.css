@@ -1,0 +1,12 @@
+.wrapper {
+  background: url(../../pictures/background/1.png) no-repeat,
+  url(../../pictures/background/2.png) bottom 230px left 0px no-repeat; 
+  display: inline-block;
+  vertical-align: top;
+  min-width: 100%;
+}
+
+.wrapper__content {
+  width: 1141px;
+  margin: 0 auto;
+}

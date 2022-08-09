@@ -1,0 +1,15 @@
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  display: inline-block;
+}
+
+.title__fire {
+  margin-left: 10px;
+}
+
+.title--dark {
+  color: black;
+  margin-bottom: 40px;
+}
