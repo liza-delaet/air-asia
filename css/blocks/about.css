@@ -2,13 +2,13 @@
   margin-top: 143px;
   padding-bottom: 54px;
   border-bottom: 1px solid rgb(196, 189, 189);
+  display: flex;
 }
 
 .about:before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
-  width: 490px;
+  display: block;
+  min-width: 490px;
   height: 505px;
   background: url(../../pictures/content/gates.png) center center / cover no-repeat;
 }
@@ -16,15 +16,12 @@
 .about__container {
   background: url(../../pictures/content/mountains.png) no-repeat;
   padding: 43px 81px 65px;
-  display: inline-block;
-  vertical-align: top;
-  width: 785px;
+  max-width: 785px;
   margin-left: -140px;
   margin-top: 100px;
 }
 
 .about__text {
-  /* height: 177px; */
   padding-right: 105px;
   color: black;
   line-height: 1.8;

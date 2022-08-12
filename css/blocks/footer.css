@@ -1,6 +1,41 @@
 footer {
+  margin-top: auto;
+}
+
+.footer__container {
   position: relative;
-  height: 93px;
   width: 1141px;
-  margin: 29px auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__container--section {
+  height: 93px;
+  width: 100%;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-footer {
+  margin-top: auto;
+}
+
+.inner-footer__container {
+  padding: 45px 0;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--left {
+  justify-content: flex-start;
+}
+
+.footer__col--right {
+  justify-content: flex-end;
 }

@@ -1,12 +1,22 @@
 .wrapper {
-  background: url(../../pictures/background/1.png) no-repeat,
-  url(../../pictures/background/2.png) bottom 230px left 0px no-repeat; 
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   vertical-align: top;
-  min-width: 100%;
+  min-width: 1200px;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .wrapper__content {
   width: 1141px;
   margin: 0 auto;
+}
+
+.wrapper__main {
+  background: url(../../pictures/background/1.png) no-repeat,
+  url(../../pictures/background/2.png) bottom 230px left 0px no-repeat; 
+}
+
+.wrapper__inner {
+  background: url(../../pictures/background/headline\ 1.png) no-repeat;
 }

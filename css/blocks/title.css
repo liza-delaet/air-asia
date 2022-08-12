@@ -1,7 +1,6 @@
 .title {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 27px;
   display: inline-block;
 }
 
@@ -11,5 +10,17 @@
 
 .title--dark {
   color: black;
+}
+
+.about__title {
   margin-bottom: 40px;
+}
+
+.service__title {
+  margin-bottom: 0px;
+}
+
+.partners__title {
+  font-size: 48px;
+  margin-bottom: 80px;
 }

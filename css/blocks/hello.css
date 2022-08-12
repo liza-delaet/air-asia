@@ -1,6 +1,10 @@
 .hello__container {
-  width: 520px;
-  position: relative;
+  width: 50%;
+  min-width: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .hello__title {

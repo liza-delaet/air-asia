@@ -28,9 +28,13 @@
 }
 
 .tours__button {
-  margin-top: 23px;
+  margin-top: auto;
 }
 
 .about__button {
   margin-top: 62px;
+}
+
+.service__button {
+  padding: 16px 35px;
 }

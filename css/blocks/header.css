@@ -1,4 +1,22 @@
 .header__container {
-  height: 120px;
-  position: relative;
+  padding-top: 29px;
+  margin-bottom: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.header__content {
+  width: 1141px;
+  margin: 0 auto;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--right {
+  justify-content: flex-end;
+}
+

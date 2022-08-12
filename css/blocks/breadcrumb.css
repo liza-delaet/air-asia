@@ -1,0 +1,29 @@
+.breadcrumb {
+  display: flex;
+  justify-content: flex-start;
+  color: #9A9A9A;
+  margin-top: 103px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.breadcrumb__item {
+  display: flex;
+}
+
+.breadcrumb__item::after {
+  content: "/";
+  margin: 0 4px;
+}
+
+.breadcrumb__item:last-child:after {
+  content: "";
+}
+
+.breadcrumb__link {
+  display: flex;
+}
+
+.breadcrumb__item--active {
+  font-weight: bold;
+}

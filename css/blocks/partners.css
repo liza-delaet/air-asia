@@ -1,0 +1,40 @@
+.partners {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.partners--bk--grey {
+  background: #F4F5F5;
+}
+
+.partners__content {
+  width: 1141px;
+  margin: 0 auto;
+}
+
+.partners__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 87px;
+}
+
+.partners__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-bottom: 114px;
+}
+
+.partners__link {
+  display: flex;
+  text-decoration: none;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}
+

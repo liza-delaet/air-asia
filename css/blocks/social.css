@@ -1,7 +1,5 @@
 .social {
-  position: absolute;
-  top: 23px;
-  right: 257px;
+  margin-right: 65px;
 }
 
 .social__item {

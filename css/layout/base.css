@@ -6,7 +6,10 @@ body {
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
+}
+
+html, body {
+  height: 100%;
 }
 
 a {
