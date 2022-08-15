@@ -1,7 +1,7 @@
 .service {
   display: flex;
   justify-content: center;
-  background: #F2F2F2;
+  background: #fff;
 }
 
 .service__content {
@@ -10,8 +10,8 @@
 }
 
 .service__container {
-  margin-top: 98px;
-  padding-bottom: 85px;
+  padding-top: 95px;
+  padding-bottom: 89px;
 }
 
 .service__list {
@@ -41,6 +41,7 @@
 
 .service__img {
   display: block;
-  height: 100%;
+  width: 660px;
+  height: 333px;
   object-fit: cover;
 }

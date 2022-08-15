@@ -1,7 +1,7 @@
-.menu__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 50px;
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
 }
 
 .menu__item:last-child {

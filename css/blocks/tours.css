@@ -56,6 +56,7 @@
 
 .tours__feature {
   margin-right: 35px;
+  display: flex;
 }
 
 .tours__feature:last-child {
@@ -63,12 +64,10 @@
 }
 
 .tours__feature-img {
-  display: inline-block;
   margin-right: 6px;
 }
 
 .tours__feature-text {
-  display: inline-block;
   color: #666666;
   vertical-align: top;
 }
