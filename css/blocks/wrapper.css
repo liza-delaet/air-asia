@@ -20,3 +20,7 @@
 .wrapper__inner {
   background: url(../../pictures/background/headline\ 1.png) no-repeat;
 }
+
+.wrapper__input {
+  background: url(../../pictures/background/bg.png) no-repeat;
+}

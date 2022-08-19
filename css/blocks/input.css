@@ -1,0 +1,52 @@
+.wrapper__input {
+  height: 100%;
+  width: 100%;
+}
+
+.input__content {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  animation: HelloAnimation 1s forwards;
+}
+
+@keyframes HelloAnimation {
+  0% {
+    transform: scale(0);
+  }
+
+  20% {
+    transform: scale(1.2);
+  }
+
+  40% {
+    transform: scale(0.8);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.input__container {
+  width: 591px;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../../pictures/content/shades.png);
+}
+

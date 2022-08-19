@@ -9,11 +9,14 @@
   object-fit: cover;
 }
 
-.logo__img-inner {
+.logo--inner {
+  margin-right: 65px;
   height: 42px;
   width: 98px;
 }
 
-.logo__inner {
-  margin-right: 65px;
+.logo--input {
+  height: 119px;
+  width: 279px;
+  margin-right: 0;
 }

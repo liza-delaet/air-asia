@@ -22,3 +22,12 @@
 @import url('./blocks/breadcrumb.css');
 @import url('./blocks/service.css');
 @import url('./blocks/partners.css');
+
+@import url('./blocks/input.css');
+
+@import url('./blocks/reviews.css');
+@import url('./blocks/marketing.css');
+@import url('./blocks/estimate.css');
+
+@import url('./blocks/avatar.css');
+@import url('./blocks/form.css');

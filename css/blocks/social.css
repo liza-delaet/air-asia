@@ -14,36 +14,61 @@
   width: 36px;
   height: 36px;
   background: center center no-repeat;
+  position: relative;
 }
 
-.social__item--icon--telegram .social__link {
-  background-image: url(../../pictures/social/telegram.png);
+.social__link::after, .social__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 36px;
+  height: 36px;
+  transition: .5s;
 }
 
-.social__item--icon--telegram .social__link:hover {
-  background-image: url(../../pictures/social/telegramhover.png);
+.social__link:hover::after {
+  opacity: 0;
 }
 
-.social__item--icon--vk .social__link {
-  background-image: url(../../pictures/social/vk.png);
+.social__link:hover::before {
+  opacity: 1;
 }
 
-.social__item--icon--vk .social__link:hover {
-  background-image: url(../../pictures/social/vkhover.png);
+.social__item--icon--telegram::after {
+  background: url(../../pictures/social/spritessocial.png) -10px -234px;
 }
 
-.social__item--icon--fb .social__link {
-  background-image: url(../../pictures/social/fb.png);
+.social__item--icon--telegram::before {
+  opacity: 0;
+  background: url(../../pictures/social/spritessocial.png) -10px -290px;
 }
 
-.social__item--icon--fb .social__link:hover {
-  background-image: url(../../pictures/social/fbhover.png);
+.social__item--icon--vk::after {
+  background: url(../../pictures/social/spritessocial.png) -10px -346px;
 }
 
-.social__item--icon--inst .social__link {
-  background-image: url(../../pictures/social/inst.png);
+.social__item--icon--vk::before {
+  opacity: 0;
+  background: url(../../pictures/social/spritessocial.png) -10px -402px;
 }
 
-.social__item--icon--inst .social__link:hover {
-  background-image: url(../../pictures/social/insthover.png);
+.social__item--icon--fb::after {
+  background: url(../../pictures/social/spritessocial.png) -10px -10px;
+}
+
+.social__item--icon--fb::before {
+  opacity: 0;
+  background: url(../../pictures/social/spritessocial.png) -10px -66px;
+}
+
+.social__item--icon--inst::after {
+  background: url(../../pictures/social/spritessocial.png) -10px -122px;
+}
+
+.social__item--icon--inst::before {
+  opacity: 0;
+  background: url(../../pictures/social/spritessocial.png) -10px -178px;
 }

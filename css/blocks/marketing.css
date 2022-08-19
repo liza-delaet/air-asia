@@ -1,0 +1,26 @@
+.marketing {
+  background: url(../../pictures/background/banner.png);
+  min-height: 363px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.marketing::after {
+  display: block;
+  position: absolute;
+  content: url(../../pictures/content/people.png);
+  bottom: -1%;
+  left: 53%;
+}
+
+.marketing__content {
+  padding-left: 12%;
+  max-width: 50%;
+}
+
+.marketing__title {
+  font-size: 48px;
+  line-height: 1.42;
+}

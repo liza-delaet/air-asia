@@ -19,3 +19,60 @@
   color: #9A9A9A;
   font-size: 11px;
 }
+
+.contacts__schedule {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__schedule:hover .shedule__menu {
+  right: 0;
+  opacity: 1;
+}
+
+.shedule__menu {
+  position: absolute;
+  background: #CDD1D2;
+  border-radius: 5px;
+  padding: 15px;
+  width: 160px;
+  top: 100%;
+  right: 0%;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  right: -9999px;
+}
+
+.shedule__menu::before {
+  content: "";
+  display: block;
+  height: 15px;
+  left: 0;
+  right: 0;
+  top: -15px;
+  position: absolute;
+}
+
+.shedule__menu::after {
+  content: "";
+  display: block;
+  left: 95px;
+  top: -15px;
+  position: absolute;
+  border: 12px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #CDD1D2;
+  border-top-width: 5px;
+}
+
+.shedule__item {
+  color: #1E1F20;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.shedule__item--general {
+  font-weight: 700;
+}

@@ -1,0 +1,15 @@
+.estimate {
+  background: #F4F5F5;
+}
+
+.estimate__title {
+  font-size: 48px;
+  margin-bottom: 57px;
+}
+
+.estimate__container {
+  width: 1141px;
+  margin: 0 auto;
+  padding-top: 62px;
+  padding-bottom: 95px;
+}
