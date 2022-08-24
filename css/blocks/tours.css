@@ -33,7 +33,7 @@
   object-fit: cover;
 }
 
-.tours__content {
+.tours__card {
   padding: 32px 22px 20px;
   display: flex;
   flex: 1;

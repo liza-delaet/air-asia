@@ -10,9 +10,10 @@
 </head>
 
 <body>
-  <div class="wrapper wrapper__inner">
-      <div class="header__content">
-        <div class="container header__container">
+  <div class="wrapper wrapper--inner">
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
           <div class="header__col header__col--left">
             <a href="./index.html" class="logo logo--inner">
               <img src="./pictures/logo.png" alt="" class="logo__img">
@@ -23,7 +24,7 @@
                   <a href="./index.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="./service.html" class="menu__link">Услуги</a>
+                  <a href="./service.html" class="menu__link menu__link-active">Услуги</a>
                 </li>
                 <li class="menu__item">
                   <a href="./reviews.html" class="menu__link">Отзывы</a>
@@ -46,125 +47,129 @@
             </address>
           </div>
         </div>
-        <h1 class="hello__title">Услуги</h1>
-        <ul class="breadcrumb">
-          <li class="breadcrumb__item">
-            <a href="./index.html" class="breadcrumb__link">Главная</a>
-          </li>
-          <li class="breadcrumb__item breadcrumb__item--active">
-            <a href="./service.html" class="breadcrumb__link">Услуги</a>
-          </li>
-        </ul>
+        <div class="header__description">
+          <h1 class="hello__title">Услуги</h1>
+          <ul class="breadcrumb">
+            <li class="breadcrumb__item">
+              <a href="./index.html" class="breadcrumb__link">Главная</a>
+            </li>
+            <li class="breadcrumb__item breadcrumb__item--active">
+              <a href="./service.html" class="breadcrumb__link">Услуги</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <section class="service">
+    </header>
+    <section class="service">
+      <div class="container service__container">
         <div class="service__content">
-          <div class="container service__container">
-            <ul class="service__list">
-              <li class="service__item">
-                <img src="./pictures/content/waterfall.png" alt="" class="service__img">
-                <div class="service__inform">
-                  <h3 class="title title--dark service__title">Водопад Янг-бей</h3>
-                  <p class="service__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                    несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
-                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали
-                    небезизвестный универсальный код речей.
-                  </p>
-                  <a href="#" class="button button--light service__button">Подробнее</a>
-                </div>
+          <ul class="service__list">
+            <li class="service__item">
+              <img src="./pictures/content/waterfall.png" alt="" class="service__img">
+              <div class="service__inform">
+                <h3 class="title title--dark service__title">Водопад Янг-бей</h3>
+                <p class="service__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                  несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                  отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали
+                  небезизвестный универсальный код речей.
+                </p>
+                <a href="#" class="button button--light service__button">Подробнее</a>
+              </div>
+            </li>
+            <li class="service__item">
+              <img src="./pictures/content/monkeys.png" alt="" class="service__img">
+              <div class="service__inform">
+                <h3 class="title title--dark service__title">Остров обезьян</h3>
+                <p class="service__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                  несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                  отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали
+                  небезизвестный универсальный код речей.
+                </p>
+                <a href="#" class="button button--light service__button">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+          <div class="pagination pagination__dark">
+            <div class="pagination__title">Страница 1 из 7</div>
+            <ul class="pagination__list">
+              <li class="pagination__item pagination__item--active">
+                <a href="#" class="pagination__link">1</a>
               </li>
-              <li class="service__item">
-                <img src="./pictures/content/monkeys.png" alt="" class="service__img">
-                <div class="service__inform">
-                  <h3 class="title title--dark service__title">Остров обезьян</h3>
-                  <p class="service__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                    несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
-                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали
-                    небезизвестный универсальный код речей.
-                  </p>
-                  <a href="#" class="button button--light service__button">Подробнее</a>
-                </div>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">4</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">5</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">6</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">7</a>
               </li>
             </ul>
-            <div class="pagination pagination__dark">
-              <div class="pagination__title">Страница 1 из 7</div>
-              <ul class="pagination__list">
-                <li class="pagination__item pagination__item--active">
-                  <a href="#" class="pagination__link">1</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">2</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">3</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">4</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">5</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">6</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="#" class="pagination__link">7</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
-      </section>
-      <section class="partners partners--bk--grey">
+      </div>
+    </section>
+    <section class="partners partners--bk--grey">
+      <div class="container">
         <div class="partners__content">
-          <div class="container partners__container">
-            <h2 class="title title--dark partners__title">Партнеры</h2>
-            <ul class="partners__list">
-              <li class="partners__item partners__item--icon--pobeda">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/pobedahover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--airlines">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/s7hover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--sletatru">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/lets-flyhover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--lufthansa">
-                <a href=".#" class="partners__link">
-                  <img src="./pictures/partners/lufthansahover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--airbaltic">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/airbaltichover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--pegasus">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/pegasushover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--uralairlines">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/uralhover.png" alt="" class="partners__img">
-                </a>
-              </li>
-              <li class="partners__item partners__item--icon--pegas">
-                <a href="#" class="partners__link">
-                  <img src="./pictures/partners/pegashover.png" alt="" class="partners__img">
-                </a>
-              </li>
-            </ul>
-          </div>
+          <h2 class="title title--dark partners__title">Партнеры</h2>
+          <ul class="partners__list">
+            <li class="partners__item partners__item--icon--pobeda">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/pobedahover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--airlines">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/s7hover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--sletatru">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/lets-flyhover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--lufthansa">
+              <a href=".#" class="partners__link">
+                <img src="./pictures/partners/lufthansahover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--airbaltic">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/airbaltichover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--pegasus">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/pegasushover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--uralairlines">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/uralhover.png" alt="" class="partners__img">
+              </a>
+            </li>
+            <li class="partners__item partners__item--icon--pegas">
+              <a href="#" class="partners__link">
+                <img src="./pictures/partners/pegashover.png" alt="" class="partners__img">
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
-    <footer class="inner-footer">
-      <div class="container footer__container inner-footer__container">
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content footer__content--inner">
           <div class="footer__col footer__col--left">
             <a href="./index.html" class="logo logo--inner">
               <img src="./pictures/logo.png" alt="" class="logo__img">
@@ -175,7 +180,7 @@
                   <a href="./index.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="./service.html" class="menu__link">Услуги</a>
+                  <a href="./service.html" class="menu__link menu__link-active">Услуги</a>
                 </li>
                 <li class="menu__item">
                   <a href="./reviews.html" class="menu__link">Отзывы</a>
@@ -207,6 +212,7 @@
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             </address>
           </div>
+        </div>
       </div>
     </footer>
   </div>

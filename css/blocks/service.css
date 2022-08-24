@@ -1,15 +1,8 @@
 .service {
-  display: flex;
-  justify-content: center;
   background: #fff;
 }
 
 .service__content {
-  width: 1141px;
-  margin: 0 auto;
-}
-
-.service__container {
   padding-top: 100px;
   padding-bottom: 89px;
 }

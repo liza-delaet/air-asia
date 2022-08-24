@@ -1,21 +1,11 @@
-.partners {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .partners--bk--grey {
   background: #F4F5F5;
 }
 
 .partners__content {
-  width: 1141px;
-  margin: 0 auto;
-}
-
-.partners__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   padding-top: 84px;
 }
 
@@ -32,10 +22,10 @@
   display: flex;
   text-decoration: none;
   filter: grayscale(100%);
+  transition: filter 0.5s;
 }
 
 .partners__link:hover {
   filter: grayscale(0);
-  transition: 0.5s;
 }
 

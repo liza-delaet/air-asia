@@ -7,20 +7,15 @@
   overflow: hidden;
 }
 
-.wrapper__content {
-  width: 1141px;
-  margin: 0 auto;
-}
-
-.wrapper__main {
+.wrapper--main {
   background: url(../../pictures/background/1.png) no-repeat,
   url(../../pictures/background/2.png) bottom 230px left 0px no-repeat; 
 }
 
-.wrapper__inner {
+.wrapper--inner {
   background: url(../../pictures/background/headline\ 1.png) no-repeat;
 }
 
-.wrapper__input {
+.wrapper--input {
   background: url(../../pictures/background/bg.png) no-repeat;
 }

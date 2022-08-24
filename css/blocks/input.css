@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.input__content {
+.input {
   opacity: 0;
   display: flex;
   justify-content: center;

@@ -14,11 +14,11 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  transition: background 0.5s;
 }
 
 .button:hover {
   background: #DA0100;
-  transition: 0.5s;
 }
 
 .button--light {
@@ -27,12 +27,12 @@ button {
   border-style: solid;
   border-color: #F5170E;
   padding: 18px 29px;
+  transition: background 0.5s;
 }
 
 .button--light:hover {
   color: #fff;
   background: #F5170E;
-  transition: 0.5s;
 }
 
 .button--dark {

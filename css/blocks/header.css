@@ -1,14 +1,9 @@
-.header__container {
+.header__content {
   padding-top: 29px;
   margin-bottom: 88px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header__content {
-  width: 1141px;
-  margin: 0 auto;
 }
 
 .header__col {

@@ -1,9 +1,8 @@
-.hello__container {
-  width: 50%;
-  min-width: 510px;
+.hello__content {
+  padding-right: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
